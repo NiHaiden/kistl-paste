@@ -1,0 +1,17 @@
+{
+  "framework": "react",
+  "typescript": true,
+  "projectName": "kistl-paste",
+  "mode": "file-router",
+  "tailwind": true,
+  "packageManager": "npm",
+  "toolchain": "eslint+prettier",
+  "variableValues": {},
+  "git": true,
+  "version": 1,
+  "existingAddOns": [
+    "shadcn",
+    "tanstack-query",
+    "start"
+  ]
+}

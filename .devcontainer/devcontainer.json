@@ -6,7 +6,7 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
-  features: {
+  "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {
       "fisher": true
@@ -14,14 +14,12 @@
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
-  "forwardPorts": [
-    "3000"
-  ],
+  "forwardPorts": ["3000"],
 
   // Ue 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "yarn install",
 
-  postCreateCommand: ["npm i"],
+  "postCreateCommand": ["npm i"],
   // Configure tool-specific properties.
   "customizations": {
     "jetbrains": {

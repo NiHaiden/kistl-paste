@@ -13,6 +13,7 @@
     "dev": "vinxi dev"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.2.2",
     "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-query": "^5.66.5",

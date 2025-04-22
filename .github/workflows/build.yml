@@ -34,5 +34,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.REGISTRY_URL }}/$(echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]')/$(echo ${{ github.event.repository.name }} | tr '[:upper:]' '[:lower:]'):${{ github.ref_name }}
+          tags: ghcr.io/nihaiden/${{ github.event.repository.name }}:${{ github.ref_name }}
           labels: ${{ steps.meta.outputs.labels }}
